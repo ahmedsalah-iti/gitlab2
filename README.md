@@ -17,4 +17,4 @@ git tag -d v1.1
 - how to delete tag remotley :
 git push origin --delete v1.1 or git push origin :v1.1
 
-![hey][bye.jpg]
+![hey](bye.jpg)
