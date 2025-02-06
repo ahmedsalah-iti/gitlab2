@@ -41,5 +41,6 @@ git tag -d v1.1
 - how to delete tag remotley :
 git push origin --delete v1.1 or git push origin :v1.1
 
-
+- how to add image to readme :
+touch README.md; then i copy the image to the project dir , and i type ![tag name][img path/url] .
 
