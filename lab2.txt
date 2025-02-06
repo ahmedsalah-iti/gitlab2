@@ -9,10 +9,12 @@ git branch
 git  checkout dev
 git branch
 touch dev_file.txt
+git add .
+git commit -m "added dev_file"
 git checkout test
 touch test_file.txt
 git add .
-git commit -m "added dev_file"
+git commit -m "added test_file"
 git push origin dev
 git push origin test
 git checkout main
