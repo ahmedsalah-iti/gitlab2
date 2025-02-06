@@ -15,5 +15,4 @@ git add .
 git commit -m "added dev_file"
 git push origin dev
 git push origin test
-git checkout main
 
