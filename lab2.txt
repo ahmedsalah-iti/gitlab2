@@ -16,4 +16,5 @@ git commit -m "added dev_file"
 git push origin dev
 git push origin test
 git checkout main
-
+git merge dev -m "dev merged"
+git merge test -m "test merged"
