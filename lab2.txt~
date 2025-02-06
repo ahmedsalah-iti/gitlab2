@@ -1,7 +1,5 @@
 git init
 git branch -m main
-<<<<<<< HEAD
-=======
 git add .
 git commit -m "index added"
 git remote add origin git@github.com:ahmedsalah-iti/gitlab2.git
@@ -17,5 +15,5 @@ git add .
 git commit -m "added dev_file"
 git push origin dev
 git push origin test
->>>>>>> dev
+git checkout main
 
