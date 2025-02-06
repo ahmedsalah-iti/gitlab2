@@ -11,6 +11,7 @@ git branch
 touch dev_file.txt
 git checkout test
 touch test_file.txt
+<<<<<<< HEAD
 git add .
 git commit -m "added dev_file"
 git push origin dev
@@ -18,3 +19,6 @@ git push origin test
 git checkout main
 git merge dev -m "dev merged"
 git merge test -m "test merged"
+=======
+
+>>>>>>> test
