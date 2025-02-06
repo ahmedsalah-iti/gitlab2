@@ -29,4 +29,17 @@ git push origin :test or git push origin --delete test
 - how to checkout another branch without commit changes :
 by using git stash then we can checkout to another branch because it's saving the changes without commiting .
   
+git tag -a v1.1 -m "v1.1"
+git push origin v1.1
+
+- how to list tags :
+git tag
+
+- how to delete tag locally :
+git tag -d v1.1
+
+- how to delete tag remotley :
+git push origin --delete v1.1 or git push origin :v1.1
+
+
 
