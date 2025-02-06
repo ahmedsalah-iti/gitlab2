@@ -1,3 +1,14 @@
 git init
 git branch -m main
+git add .
+git commit -m "index added"
+git remote add origin git@github.com:ahmedsalah-iti/gitlab2.git
+git push -u origin main
+git branch dev;git branch test;
+git branch
+git  checkout dev
+git branch
+touch dev_file.txt
+git checkout test
+touch test_file.txt
 
